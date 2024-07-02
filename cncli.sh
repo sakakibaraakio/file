@@ -9,10 +9,10 @@
 # Common variables set in env file   #
 ######################################
 
-POOL_ID=""                               # Automatically detected if POOL_NAME is set in env. Required for leaderlog calculation & pooltool sendtip, lower-case hex pool id
-POOL_ID_BECH32=""                        # Automatically detected if POOL_NAME is set in env. Required for leaderlog calculation with Koios API, lower-case pool id in bech32 format
-POOL_VRF_SKEY="${CNODE_HOME}/vrf.skey"                         # Automatically detected if POOL_NAME is set in env. Required for leaderlog calculation, path to pool's vrf.skey file
-POOL_VRF_VKEY="${CNODE_HOME}/vrf.vkey"                         # Automatically detected if POOL_NAME is set in env. Required for block validation, path to pool's vrf.vkey file
+#POOL_ID=""                               # Automatically detected if POOL_NAME is set in env. Required for leaderlog calculation & pooltool sendtip, lower-case hex pool id
+#POOL_ID_BECH32=""                        # Automatically detected if POOL_NAME is set in env. Required for leaderlog calculation with Koios API, lower-case pool id in bech32 format
+#POOL_VRF_SKEY="${CNODE_HOME}/vrf.skey"                         # Automatically detected if POOL_NAME is set in env. Required for leaderlog calculation, path to pool's vrf.skey file
+#POOL_VRF_VKEY="${CNODE_HOME}/vrf.vkey"                         # Automatically detected if POOL_NAME is set in env. Required for block validation, path to pool's vrf.vkey file
 #PT_API_KEY=""                            # POOLTOOL: set API key, e.g "a47811d3-0008-4ecd-9f3e-9c22bdb7c82d"
 #POOL_TICKER=""                           # POOLTOOL: set the pools ticker, e.g "TCKR"
 #PT_HOST="127.0.0.1"                      # POOLTOOL: connect to a remote node, preferably block producer (default localhost)
